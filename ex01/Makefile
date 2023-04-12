@@ -6,7 +6,7 @@
 #    By: makacem <makacem@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/04 17:46:49 by makacem           #+#    #+#              #
-#    Updated: 2023/04/08 22:14:49 by makacem          ###   ########.fr        #
+#    Updated: 2023/04/12 00:52:59 by makacem          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 HEADER = PhoneBook.hpp
 
-SRC = main.cpp PhoneBook.cpp \
+SRC = main.cpp PhoneBook.cpp Contact.cpp\
 
 OBJ = $(SRC:.cpp=.o)
 
